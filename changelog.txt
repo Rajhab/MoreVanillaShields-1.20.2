@@ -1,0 +1,10 @@
+Changelog 1.0.0-1.20.1:
+
+- Added Leather Shield
+- Added Gold Shield
+- Added Diamond Shield
+- Added Netherite Shield
+
+Changelog 1.0.0-1.20.2:
+
+- Ported to 1.20.2
