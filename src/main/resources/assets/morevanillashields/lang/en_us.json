@@ -3,5 +3,10 @@
   "item.morevanillashields.leather_shield": "Leather Shield",
   "item.morevanillashields.gold_shield": "Gold Shield",
   "item.morevanillashields.diamond_shield": "Diamond Shield",
-  "item.morevanillashields.netherite_shield": "Netherite Shield"
+  "item.morevanillashields.netherite_shield": "Netherite Shield",
+  "item.morevanillashields.redstone_shield": "Redstone Shield",
+  "item.morevanillashields.emerald_shield": "Emerald Shield",
+  "item.morevanillashields.amethyst_shield": "Amethyst Shield",
+  "item.morevanillashields.end_crystal_shield": "End Crystal Shield",
+  "item.morevanillashields.obsidian_shield": "Obsidian Shield"
 }

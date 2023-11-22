@@ -20,8 +20,13 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.LEATHER_SHIELD.get());
                         pOutput.accept(ModItems.GOLD_SHIELD.get());
+                        //pOutput.accept(ModItems.REDSTONE_SHIELD.get());
+                        pOutput.accept(ModItems.EMERALD_SHIELD.get());
+                        pOutput.accept(ModItems.AMETHYST_SHIELD.get());
                         pOutput.accept(ModItems.DIAMOND_SHIELD.get());
+                        pOutput.accept(ModItems.OBSIDIAN_SHIELD.get());
                         pOutput.accept(ModItems.NETHERITE_SHIELD.get());
+                        pOutput.accept(ModItems.END_CRYSTAL_SHIELD.get());
 
                     })
                     .build());
