@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, morevanillashields.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ITEM_GROUP = CREATIVE_MODE_TABS.register("morevanillashields",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LEATHER_SHIELD.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DIAMOND_SHIELD.get()))
                     .title(Component.translatable("creativetab.morevanillashields"))
                     .displayItems((pParameters, pOutput) -> {
 
