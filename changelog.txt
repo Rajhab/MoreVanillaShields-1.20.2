@@ -17,3 +17,8 @@ Changelog 1.0.1-1.20.2:
 - Added End Crystal Shield
 - Added Obsidian Shield
 - Fixed de_de language
+
+Changelog 1.0.2-1.20.2:
+
+- Updated to forge - 48.1.0
+- Changed mappings to parchment-1.20.2
