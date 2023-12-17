@@ -97,6 +97,10 @@ public class morevanillashields {
                     return $entity != null && $entity.isUsingItem() && $entity.getUseItem() == $itemStack ? 1.0F : 0.0F;
                 });
 
+                ItemProperties.register(ModItems.COAL_SHIELD.get(), BLOCKING_PROPERTY_RESLOC, ($itemStack, $level, $entity, $seed) -> {
+                    return $entity != null && $entity.isUsingItem() && $entity.getUseItem() == $itemStack ? 1.0F : 0.0F;
+                });
+
             });
 
         }
