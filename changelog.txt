@@ -28,3 +28,18 @@ Changelog 1.0.3-1.20.2:
 - Added Coal Shield (smeltable)
 - Simplified code of End Crystal Shield
 - Added Tool Tips for Shields
+
+Changelog 1.0.4-1.20.2:
+
+- Nerfed Leather Shield (durability 216 --> 196)
+- Nerfed Gold Shield (durability 356 --> 322)
+- Changed recipes (recipe should now work for other mods with the 'plank' tag)
+- Fixed Coal Shield recipe (now compatible with charcoal)
+- Netherite Shield is now fire-resistant
+- Removed Custom Creative Mode Tab
+- Added Items to the Combat Creative Mode Tab
+- Crafting remainder support added to the equipment slot
+- Fixed logo
+- Added Glass Shield (transparent)
+
+BANNER SUPPORT COMING SOON!

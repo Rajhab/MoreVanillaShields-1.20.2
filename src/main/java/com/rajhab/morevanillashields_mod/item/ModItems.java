@@ -25,7 +25,7 @@ public class ModItems {
 
     //Shield
     public static final RegistryObject<Item> LEATHER_SHIELD = ITEMS.register("leather_shield",
-            () -> new ShieldItem(new Item.Properties().durability(216)){
+            () -> new ShieldItem(new Item.Properties().durability(196)){
 
                 @Override
                 public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
@@ -40,7 +40,7 @@ public class ModItems {
             });
 
     public static final RegistryObject<Item> GOLD_SHIELD = ITEMS.register("gold_shield",
-            () -> new ShieldItem(new Item.Properties().durability(356)){
+            () -> new ShieldItem(new Item.Properties().durability(322)){
 
                 @Override
                 public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
@@ -69,6 +69,21 @@ public class ModItems {
                 }
             });
 
+    public static final RegistryObject<Item> GLASS_SHIELD = ITEMS.register("glass_shield",
+            () -> new ShieldItem(new Item.Properties().durability(300)){
+
+                @Override
+                public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> components, TooltipFlag flag) {
+                    if (Screen.hasShiftDown()) {
+                        components.add(Component.translatable("item.moditems.glass_shield").withStyle(ChatFormatting.DARK_AQUA));
+                    } else {
+                        components.add(Component.translatable("item.moditems.shift").withStyle(ChatFormatting.LIGHT_PURPLE));
+                    }
+
+                    super.appendHoverText(stack, level, components, flag);
+                }
+            });
+
     public static final RegistryObject<Item> NETHERITE_SHIELD = ITEMS.register("netherite_shield",
             () -> new ShieldItem(new Item.Properties().durability(2042)){
 
@@ -81,6 +96,11 @@ public class ModItems {
                     }
 
                     super.appendHoverText(stack, level, components, flag);
+                }
+
+                @Override
+                public boolean isFireResistant() {
+                    return true;
                 }
             });
 
@@ -169,6 +189,8 @@ public class ModItems {
 
                     super.appendHoverText(stack, level, components, flag);
                 }
+
+
             });
 
     public static void register(IEventBus eventBus) {
