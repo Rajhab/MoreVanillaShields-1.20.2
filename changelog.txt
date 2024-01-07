@@ -43,3 +43,9 @@ Changelog 1.0.4-1.20.2:
 - Added Glass Shield (transparent)
 
 BANNER SUPPORT COMING SOON!
+
+Changelog 1.0.5-1.20.2:
+
+- Added Tinted Glass Shield
+- Finished Config support
+- Changed language files
